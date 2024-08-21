@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="AEROPUERTO.Tabs.Master" %>
+<link href="../CSS/menu.css" rel="stylesheet" />
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <ul>
+  <li><a target="_blank" href="Pasajeros.aspx" data-text="Pasajero">Registrar Pasajero</a></li>
+  <li><a target="_blank" href="Entradas.aspx" data-text="Entradas">Registrar Entradas</a></li>
+  <li><a target="_blank" href="Salidas.aspx" data-text="Salidas">Registrar Salidas</a></li>
+  <li><a target="_blank" href="Login.aspx" data-text="Salir">Salir</a></li>
+</ul>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
